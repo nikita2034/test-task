@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import Header from '../../Components/Header/Header';
 import Navbara from '../../Components/Navbar/Navbar';
 import MainContent from '../../Components/MainContent/MainContent';
@@ -10,9 +10,7 @@ function MainPage(props) {
             <div className={styles.block}>
                 <Navbara />
                 <MainContent />
-
             </div>
-
         </div>
     );
 }
