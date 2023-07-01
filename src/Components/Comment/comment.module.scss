@@ -1,0 +1,31 @@
+.container{
+    background-color:#E7E8EF;
+    margin-bottom: 10px;
+    border-radius:5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content:center;
+    padding: 10px;
+
+    &:last-child{
+        margin-bottom: 0px;
+    }
+}
+.contacts{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.body{
+    font-size: 18px;
+}
+.name{
+    font-size: 14px;
+
+}
+.email{
+    font-size: 14px;
+}
